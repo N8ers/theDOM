@@ -4,7 +4,9 @@
     <title>The D.O.M.</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <script type="text/javascript" src="js/paper.js"></script>   
+    <div id="hide">
+      <script type="text/javascript" src="js/paper.js"></script>  
+    </div> 
 </head>
   <body>
     <h1 class="head">
@@ -19,10 +21,40 @@
         <button type="button" id="btnHover" class="btn btn-success btn-lg col-md-3 btnFormat"> h o v e r o n m e </button>
        </div>
        <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-3"><p>&lt;I'm some code/&gt;</p></div>
-         <div class="col-md-2"></div>
-        <div class="col-md-3">&lt;I'm some code/&gt;</div>
+        <div class="col-md-6 codebox"><p> I simply made a button and gave it an id of "btnClick" then my JavaScript did the rest!
+          <br>
+          <br>
+          <br>
+          var btnClick = document.querySelector("#btnClick");
+          <br>
+          <br>
+          btnClick.addEventListener("click", function(){
+          <br>
+          &ensp;  document.body.style.background = 
+          <br>
+          &ensp;  randomColor();
+          <br>
+            });
+  
+        </p></div>
+        <div class="col-md-6 codebox"><p> I simply made a button and gave it an id of "btnHover" then my JavaScript did the rest!
+            <br>
+            <br>
+            <br>
+            var btnHover = document.querySelector("#btnHover");
+            <br>
+            <br>
+            btnHover.addEventListener("mouseover", function(){
+              &ensp;document.body.style.background = randomColor();
+              <br>
+              });<br><br>
+            btnHover.addEventListener("mouseout", function(){
+              <br>
+              &ensp;document.body.style.background = "white";
+              <br>
+              });
+    
+          </p></div>
        </div>
       </div>
       
@@ -35,17 +67,17 @@
             <li>how to select</li>
             <li>how to manipulate</li>
           </ul>
-          <h1>things i had trouble with</h1>
-          <ul>
-            <li>in query selecoor adding a . or #</li>
-            <li>putting scipt tag at btm of code</li>
-            <li>documentr.body.style = "color"; to change another part of the page</li>
-          </ul>
           <p>&lt;Lorem ipsum dolor amet chillwave flexitarian pok pok vaporware etsy VHS locavore vexillologist literally. Vinyl cred kinfolk post-ironic kale chips semiotics 8-bit hot chicken coloring book hell of, brooklyn woke waistcoat. Four loko meh seitan whatever vinyl brooklyn offal austin kitsch. Banjo poutine chambray crucifix prism next level you probably haven't heard of them before they sold out hell of quinoa. Messenger bag raw denim 90's, brunch small batch poke vexillologist.
     
     Flexitarian single-origin coffee church-key tofu pabst austin. Dreamcatcher four dollar toast copper mug fam butcher tilde. Selvage tacos distillery, keffiyeh ennui hashtag vape cronut. Skateboard cardigan schlitz, poutine semiotics beard green juice readymade four loko fanny pack vaporware hella. Quinoa tumeric heirloom dreamcatcher, thundercats marfa crucifix retro enamel pin squid. Direct trade meditation YOLO beard subway tile.
     
     /&gt;</p></div>
+    <h1>things i had trouble with</h1>
+    <ul>
+      <li>in query selecoor adding a . or #</li>
+      <li>putting scipt tag at btm of code</li>
+      <li>documentr.body.style = "color"; to change another part of the page</li>
+    </ul>
         <div class="col-md-3"></div>
           
        </div>
