@@ -2,9 +2,18 @@
     text-align: center;
     padding: 20px 20px;
     margin: 20px auto;
-    border: 1px solid black;
-    border-radius: 20px;
     width: 300px;
+  }
+
+  .headOff{
+    border: 3px solid #707070;
+    border-radius: 20px;
+  }
+
+  .headOn{
+    border: 3px solid rgb(255, 0, 153);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px pink inset;
   }
   
   .btnFormat{
@@ -20,6 +29,7 @@
   }
 
   img {
+    
       border-radius: 50%;
       max-width: 100%;
       height: auto;
