@@ -13,7 +13,15 @@
 //   isBlue = !isBlue;
 // }, 1000);
 
+var btnClick = document.querySelector("#btnClick");
 
-function clickHandeler(click) {
-  alert("i've been clicked!"); 
+function randomColor(){
+	var r = Math.floor(Math.random() * 256); 
+	var b = Math.floor(Math.random() * 256);
+	var g = Math.floor(Math.random() * 256);
+	return "rgb(" + r + ", " + g + ", " + b + ")";
 }
+
+btnClick.addEventListener("click", function(){
+document.body.style.background = randomColor();
+})

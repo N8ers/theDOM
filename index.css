@@ -5,7 +5,10 @@
     width: 300px;
   }
 
-  .headOff{
+
+/* 
+  class list toggle */
+  /* .headOff{
     border: 3px solid #707070;
     border-radius: 20px;
   }
@@ -14,7 +17,7 @@
     border: 3px solid rgb(255, 0, 153);
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px pink inset;
-  }
+  } */
   
   .btnFormat{
     border-radius: 10px;
