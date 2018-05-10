@@ -1,0 +1,24 @@
+todo;
+
+make the DOM sign look cooler
+
+put some spave between buttons and code
+
+make code "copyable?"
+
+write out "how in the heck stuff"
+
+write out problems I ran into
+
+and a little blerb underneath about the topic
+
+resize social icons
+
+why is there a horiziontal scroll????
+
+
+after that's done;
+documentation
+surge launch
+update portfolio
+tweet it - freecode camp it
