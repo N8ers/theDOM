@@ -3,6 +3,7 @@
     padding: 20px 20px;
     margin: 20px auto;
     width: 300px;
+    height: 150px;
   }
 
   .headOff{
@@ -13,8 +14,38 @@
   .headOn{
     border: 3px solid rgb(255, 0, 153);
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px pink inset;
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 255, 0.616), 4px 6px 20px 4px rgba(255, 0, 255, 0.19);
+  }
 
+  .colorbtm1{
+    width:225px;
+    border-bottom: 
+      3px solid rgb(251,46,1);
+    align-items: right;
+  }
+  .colorbtm2{
+    position: relative;
+    left: 5px;
+    width:225px;
+    border-bottom: 
+      3px solid rgb(111,203,159);
+    align-items: right;
+  }
+  .colorbtm3{
+    position: relative;
+    left: 10px;
+    width:225px;
+    border-bottom: 
+      3px solid rgb(255,226,138);
+    align-items: right;
+  }
+  .colorbtm4{
+    position: relative;
+    left: 15px;
+    width:225px;
+    border-bottom: 
+      3px solid rgb(255,254,179);
+    align-items: right;
   }
   
   
@@ -26,14 +57,6 @@
 
   .btnFormat{
     border-radius: 10px;
-  }
-  
-  .clickBtn {
-  
-  }
-  
-  .hoverBtn{
-    
   }
 
   img {
@@ -50,6 +73,5 @@
   .bio {
     margin: 10px;
     padding-top: 20px;
-    border: 1px solid #black;
-    background-color: #F0F8FF
+    background-color: #F0F8FF;
   }
