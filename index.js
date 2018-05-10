@@ -1,3 +1,11 @@
+function headToggle() {
+  var el = document.getElementById("headOn"); 
+  el.classList.toggle("headOn");
+}
+setInterval(function(){
+  headToggle(); 
+}, 2000);
+
 var btnClick = document.querySelector("#btnClick");
 function randomColor(){
 	var r = Math.floor(Math.random() * 256); 
