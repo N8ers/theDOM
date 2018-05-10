@@ -60,6 +60,10 @@
 
   .btnFormat{
     border-radius: 10px;
+    margin: 20px 0px;
+  }
+  .h1spacing{
+    margin-top: 20px;
   }
 
   img {
