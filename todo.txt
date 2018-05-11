@@ -16,6 +16,7 @@ resize social icons
 
 why is there a horiziontal scroll????
 
+make sure that when fitted for mobil it the buttons and code sections don't fuck with eachother
 
 after that's done;
 documentation

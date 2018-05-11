@@ -25,7 +25,7 @@
         <button type="button" id="btnHover" class="btn btn-success btn-lg col-md-3 btnFormat"> h o v e r o n m e </button>
        </div>
        <div class="row">
-        <div class="col-md-6 codebox"><br><p> This button has an id of "btnClick"
+        <div class="col-md-6 codebox"><br><p> The above button has an id of "btnClick"
           <br>
           <br>
           <br>
@@ -41,7 +41,7 @@
             });
   
         </p></div>
-        <div class="col-md-6 codebox"><br><p> This button has an id of "btnHover"
+        <div class="col-md-6 codebox"><br><p> The above button has an id of "btnHover"
             <br>
             <br>
             <br>
@@ -72,16 +72,34 @@
             <li>how to select</li>
             <li>how to manipulate</li>
           </ul>
-          <p>&lt;Lorem ipsum dolor amet chillwave flexitarian pok pok vaporware etsy VHS locavore vexillologist literally. Vinyl cred kinfolk post-ironic kale chips semiotics 8-bit hot chicken coloring book hell of, brooklyn woke waistcoat. Four loko meh seitan whatever vinyl brooklyn offal austin kitsch. Banjo poutine chambray crucifix prism next level you probably haven't heard of them before they sold out hell of quinoa. Messenger bag raw denim 90's, brunch small batch poke vexillologist.
-    
-    Flexitarian single-origin coffee church-key tofu pabst austin. Dreamcatcher four dollar toast copper mug fam butcher tilde. Selvage tacos distillery, keffiyeh ennui hashtag vape cronut. Skateboard cardigan schlitz, poutine semiotics beard green juice readymade four loko fanny pack vaporware hella. Quinoa tumeric heirloom dreamcatcher, thundercats marfa crucifix retro enamel pin squid. Direct trade meditation YOLO beard subway tile.
-    
-    /&gt;</p></div>
+          <ul>
+            <li><strong> c l i c k o n m e Example </strong>
+          <p>Document Object Model (D.O.M.) manipulation on a surface level isn't too difficult to grasp - HOWEVER can be a really difficult subject to fully grasp
+            This example isn't going to go into the details of what the D.O.M. is, we're going to talk about how it can be used!
+            Using the button 'c l i c k o n m e' as our first example.
+            First thing is first we gotta make a variable. 
+            Remember you can name this whatever you want! 
+            Then we're going to a querySelector to assign our new variable, in this case we're assigning it to the id "btnClick" - if it's an id DON'T forget your octothorp. if it's a class don't forget the period 
+            then we're going to add an event listner to that variable! 
+            we then have two arguments to fill out. the first is the action that will activate the listener. 
+            The secont is what we want it to do. 
+            In this case we want the click action to activate a function! 
+            This function is going to change the color of the body's background.
+            The line "document.body.style.background" looks a little funky, 
+            it's using javascript to manipulate the css through the D.O.M. to change the body's color. 
+            the next line "randoColor();" - is calling a function I made that produces a random color. 
+            for your practice though you could just replace that function with a nice shade of green!
+          </p></li>
+        <li><strong>h o v e r o n m e Example </strong>
+          
+        </li></ul>
+        </div>
     
        <div class="row">
           <div class="col-md-3"></div>
           <div class="col-md-6">
             <h1 class="h1spacing">Problems I ran into that you might too</h1>
+              <p>I just wanted to make a button that changed the color of something else in the document!</p>
             <ul>
               <li>the period/hashtag inside the querySelector</li>
               <li>knowing the set up/syntex for shit</li>
