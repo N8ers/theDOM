@@ -1,18 +1,16 @@
 todo;
 
-make the DOM sign look cooler
+DOM sign font cooler 
 
-put some spave between buttons and code
+put some spave between code boxes
 
 make code "copyable?"
 
-write out "how in the heck stuff"
+edit "how in the heck stuff"
 
 write out problems I ran into
 
 and a little blerb underneath about the topic
-
-resize social icons
 
 why is there a horiziontal scroll????
 
