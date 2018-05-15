@@ -2,19 +2,9 @@ todo;
 
 DOM sign font cooler 
 
-put some spave between code boxes
+clean up text content 
 
-make code "copyable?"
-
-edit "how in the heck stuff"
-
-write out problems I ran into
-
-and a little blerb underneath about the topic
-
-why is there a horiziontal scroll????
-
-make sure that when fitted for mobil it the buttons and code sections don't fuck with eachother
+resizing issues
 
 after that's done;
 documentation
