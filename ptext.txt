@@ -1,15 +1,29 @@
 <p> text </p>
 
-First thing is first we gotta make a variable. 
-Remember you can name this whatever you want! 
-Then we're going to a querySelector to assign our new variable, 
+line 1 - First thing's first we gotta make a variable. 
+Since we are making it, you can name this whatever you want! 
+In this case we're going to go with 'btnClick'.
+
+line 2 - Then we're going to a querySelector to assign our new variable, 
 in this case we're assigning it to the id "btnClick" - 
 if it's an id DON'T forget your octothorp. 
 if it's a class don't forget the period then we're going to add an event listner to that variable! 
-we then have two arguments to fill out. the first is the action that will activate the listener. 
-The secont is what we want it to do. In this case we want the click action to activate a function! 
-This function is going to change the color of the body's background. 
+
+line 3 - we then have two arguments to fill out. 
+the first is the action that will activate the listener. 
+The secont is what we want it to do. 
+In this case we want the click action to activate a function! 
+
+line 4 - This function is going to change the color of the body's background. 
 The line "document.body.style.background" looks a little funky, 
-it's using javascript to manipulate the css through the D.O.M. to change the body's color. 
-the next line "randoColor();" - is calling a function I made that produces a random color. 
+it's using javascript to manipulate the css through the DOM to change the body's color. 
+
+line 5 - the next line "randoColor();" - is calling a function I made that produces a random color. 
 for your practice though you could just replace that function with a nice shade of green!
+To learn more about how I made the random color function, check out the codepen <icon>
+
+*an important side note, in the HTML out button MUST have an id of btnClick.
+
+
+
+<p> problems i ran into that you might too </p>
