@@ -38,9 +38,17 @@ To learn more about how I made the random color function, check out this
 
 
 
-<p> problems i ran into that you might too </p>
-	I just wanted to make a button that changed the color of something else in the document! That came with about 4 hours of trying to relearn the basics of 
+<p> problems i ran into that you might too 
+	I just wanted to make a button that changed the color of something else in the document! 
+    That came with about 4 hours of relearning the basics of the DOM.
+    Here are some silly things that I forgot about that you might want to keep in mind.
 
-the period/hashtag inside the querySelector
-knowing the set up/syntex for shit
-other stuff
+the period/otcothorp inside the querySelector: 
+    This is line 2, making sure that the document knows wether it needs to recognize a class or an id.
+understanding the syntax:
+    when trying to manipulate a specific part of the document, 
+    you need to go through the document selection process. 
+    In this example we used 'document.body.style.background',
+    but here is a link with more on the topic of 
+    <a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank"HTML DOM Tree of Objects.
+other stuff:

@@ -101,7 +101,7 @@
               
               <strong><u>line 5</u></strong> - This line "randomColor();" - is calling a function I made that produces a random color. 
               For your practice though you could just replace that function with a nice shade of green!
-              To learn more about how I made the random color function, check out this 
+              To learn more about how I made the randomColor function, check out this 
               <a href="https://codepen.io/n8ers/pen/WJavgL" target="_blank">codepen <i class="fa fa-codepen" aria-hidden="true"></i></a>.
           </p>
         </div>
@@ -110,11 +110,18 @@
           <div class="col-md-2"></div>
           <div class="col-md-8">
             <h1 class="h1spacing">Problems I ran into...</h1>
-              <p>I just wanted to make a button that changed the color of something else in the document!</p>
+              <p>I just wanted to make a button that changed the color of something else in the document! 
+                  That came with about 4 hours of relearning the basics of the DOM.
+                  Here are some silly things that I forgot about that you might want to keep in mind.</p>
             <ul>
-              <li>the period/hashtag inside the querySelector</li>
-              <li>knowing the set up/syntex for shit</li>
-              <li>other stuff</li>
+              <li><u>The period/otcothorp inside the querySelector:</u>
+                  This is line 2, make sure that the document knows wether it is calling a class or an id.</li>
+              <li><u>Understanding the syntax:</u>
+                  When trying to manipulate a specific part of the document, 
+                  you need to go through the HTML DOM Tree of Objects. 
+                  In this example we used 'document.body.style.background',
+                  but here is a link with more on the topic -
+                  <a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">HTML DOM Tree of Objects.</a></li>
             </ul>
           </div>
 
