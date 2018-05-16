@@ -37,10 +37,11 @@
             <div class="col-md-2"></div>
             <p class="col-md-8">Document Object Model (DOM) manipulation on a surface level isn't too difficult to grasp - 
               however it can be a really difficult subject in practicum.
-                This example isn't going to go into the finer details of what the DOM is, we're just going to talk about how it can be used,
+                This example isn't going to go into the finer details of what the DOM. 
+                We're just going to talk about how it can be used,
                 through the above button 'c l i c k o n m e' as our first example.
                 To learn more about the DOM check out this MDN link 
-                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">Document Object Model (DOM)</a>.
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" target="_blank">Document Object Model (DOM)</a>.
               </p>
                 </div>
                 </div>
@@ -61,32 +62,54 @@
                   <br>
                   6.  });
                   </div>
+                  
           <div class="row">
           <div class="col-md-2"></div>
           <br>
           <p class="col-md-8">
-
-
-
-
-
-
-
-
-
-            
+              <br>
+              <strong><u>line 1</u></strong> - First thing's first we gotta make a variable. 
+              Since we are making it, you can name this whatever you want! 
+              In this case we're going to go with 'btnClick'.
+              <br><br>
+              
+              <strong><u>line 2</u></strong> - Then we're going to use a querySelector to assign our new variable, 
+              in this case we're assigning it to the id "#btnClick" - 
+              it's important to note that in our HTML the &lt;button id="btnClick"&gt; also has this same id
+              since we are working with an id, don't forget the octothorp! 
+              If we were using the querySelector to assign a class then we would us a period instead of an octothorp.
+              Next we're going to add an event listener to that variable! 
+              To learn more about querySelectors, read here 
+              <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector" target="_blank">document.querySelector().</a>
+              <br><br>
+              
+              <strong><u>line 3</u></strong> - An event listener is a method that calls a function when a specific event occurs.
+              So in this case we want to add the method to our new variable "btnClick".
+              the addEventListener method will take two arguments. 
+              The first is the specific event type (in this case 'click' here is a list of all 
+              <a href="https://developer.mozilla.org/en-US/docs/Web/Events" target="_blank">event types<a/>. 
+              The second is the listener, in this case it will be another function.
+              <br><br>
+              
+              <strong><u>line 4</u></strong> - This function is going to change the color of the body's background. 
+              The line "document.body.style.background" looks a little funky.
+              It's basically saying with in the document, select body 
+              - within the body, select the style attributes 
+              - with in the style attributes, select background
+              It's using JavaScript to manipulate the CSS through the DOM to change the body's color. 
+              <br><br>
+              
+              <strong><u>line 5</u></strong> - This line "randomColor();" - is calling a function I made that produces a random color. 
+              For your practice though you could just replace that function with a nice shade of green!
+              To learn more about how I made the random color function, check out this 
+              <a href="https://codepen.io/n8ers/pen/WJavgL" target="_blank">codepen <i class="fa fa-codepen" aria-hidden="true"></i></a>.
           </p>
         </div>
-        
-
-          
-        
-        </div>
-    
+        </div>   
        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <h1 class="h1spacing">Problems I ran into that you might too</h1>
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <h1 class="h1spacing">Problems I ran into...</h1>
               <p>I just wanted to make a button that changed the color of something else in the document!</p>
             <ul>
               <li>the period/hashtag inside the querySelector</li>
@@ -99,7 +122,7 @@
         <div class="row bio">
         <div class="col-md-3"></div>
         <div class="col-md-4">
-          <h1>Think that was neat?</h1>
+          <h2>Think that was neat?</h2>
           <p>Check under the hood of this webpage on <a href="https://codepen.io/n8ers/full/XqZzPW/" target="_blank">codepen <i class="fa fa-codepen" aria-hidden="true"></i> </a>
             Also feel free to view my 
             <a href="http://sheryak-portfolio.surge.sh/" target="_blank">portfolio</a>, 

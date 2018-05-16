@@ -1,14 +1,6 @@
 function headToggle() {
   var el = document.getElementById("headOn"); 
 	el.classList.toggle("headOn");
-	var cb1 = dicument.getElementById("cb1");
-	cb1.classList.toggle("colorbtm1");
-	var cb2 = dicument.getElementById("cb2");
-	cb2.classList.toggle("colorbtm2");
-	var cb3 = dicument.getElementById("cb3");
-	cb3.classList.toggle("colorbtm3");
-	var cb4 = dicument.getElementById("cb4");
-	cb4.classList.toggle("colorbtm4");
 }
 setInterval(function(){
   headToggle(); 
